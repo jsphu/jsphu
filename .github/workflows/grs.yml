@@ -21,9 +21,9 @@ jobs:
           # using action context var `github.repository_owner` or specified user
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/github-snake.svg
-            dist/github-snake-dark.svg?palette=github-dark
-            dist/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
+            profile/github-snake.svg
+            profile/github-snake-dark.svg?palette=github-dark
+            profile/ocean.gif?color_snake=orange&color_dots=#bfd6f6,#8dbdff,#64a1f4,#4b91f1,#3c7dd9&color_background=#aaaaaa
 
       - name: Generate stats card
         uses: readme-tools/github-readme-stats-action@v1
