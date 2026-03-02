@@ -1,4 +1,5 @@
 ![Stats](./profile/stats.svg)
 ![roadmap](https://roadmap.sh/card/wide/6771214e70129741a8e72576?variant=dark&roadmaps=javascript%2Cpython%2Cfrontend%2Clinux)
 ![Langs](./profile/langs.svg)
+<img alt="organism" src="./profile/organism.svg" width="256px;"></img>
 ![github-snake](./profile/github-snake-dark.svg)
