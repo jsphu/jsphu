@@ -7,6 +7,10 @@ on:
         description: 'Organism Name (scientific name; e.g. "Callus callus domesticus")'
         required: true
         default: 'Mus musculus'
+      output_dir:
+        description: 'File output directory'
+        required: true
+        default: './profile/organism.svg'
 
 jobs:
   update-svg:
@@ -21,12 +25,8 @@ jobs:
         uses: jsphu/lifepixels@main 
         with:
           organism_query: ${{ github.event.inputs.query }}
-
-      - name: Move SVG
-        shell: bash
-        run: |
-          mv ./organism.svg ./profile/organism.svg
-
+          output_path: ${{ github.event.inputs.output_dir }}
+  
       - name: Commit changes
         run: |
           git config --global user.name "github-actions[bot]"
