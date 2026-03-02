@@ -25,8 +25,7 @@ jobs:
       - name: Move SVG
         shell: bash
         run: |
-          mkdir -p ./dist
-          mv ./dist/organism.svg ./profile/organism.svg
+          mv ./organism.svg ./profile/organism.svg
 
       - name: Commit changes
         run: |
