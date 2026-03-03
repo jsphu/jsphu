@@ -11,6 +11,10 @@ on:
         description: 'File output directory'
         required: true
         default: './profile/organism.svg'
+      grid_size:
+        description: 'grid size'
+        required: false
+        default: '30'
 
 jobs:
   update-svg:
@@ -26,6 +30,7 @@ jobs:
         with:
           organism_query: ${{ github.event.inputs.query }}
           output_path: ${{ github.event.inputs.output_dir }}
+          grid_size: ${{ github.event.inputs.grid_size }}
   
       - name: Commit changes
         run: |
