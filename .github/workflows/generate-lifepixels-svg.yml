@@ -29,7 +29,7 @@ jobs:
         uses: jsphu/lifepixels@main 
         with:
           organism_query: ${{ github.event.inputs.query }}
-          output_path: ${{ github.event.inputs.output_dir }}
+          output_path: ${{ github.workspace }}/${{ github.event.inputs.output_dir }}
           grid_size: ${{ github.event.inputs.grid_size }}
   
       - name: Commit changes
