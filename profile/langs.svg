@@ -108,11 +108,11 @@
       <g transform="translate(0, 0)">
     <g class="stagger" style="animation-delay: 450ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">Python</text>
-      <text x="215" y="34" class="lang-name">37.05%</text>
+      <text x="215" y="34" class="lang-name">37.15%</text>
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="37.04885746318603%">
+      <svg data-testid="lang-progress" width="37.15485836851423%">
         <rect
             height="8"
             fill="#3572A5"
@@ -127,11 +127,11 @@
   </g><g transform="translate(0, 40)">
     <g class="stagger" style="animation-delay: 600ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">Jupyter Notebook</text>
-      <text x="215" y="34" class="lang-name">28.71%</text>
+      <text x="215" y="34" class="lang-name">28.66%</text>
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="28.71198352803091%">
+      <svg data-testid="lang-progress" width="28.663636569975942%">
         <rect
             height="8"
             fill="#DA5B0B"
@@ -146,11 +146,11 @@
   </g><g transform="translate(0, 80)">
     <g class="stagger" style="animation-delay: 750ms">
       <text data-testid="lang-name" x="2" y="15" class="lang-name">JavaScript</text>
-      <text x="215" y="34" class="lang-name">27.78%</text>
+      <text x="215" y="34" class="lang-name">27.73%</text>
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="27.78166967677029%">
+      <svg data-testid="lang-progress" width="27.734889236914977%">
         <rect
             height="8"
             fill="#f1e05a"
@@ -169,7 +169,7 @@
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="3.5238816553248995%">
+      <svg data-testid="lang-progress" width="3.5179479322710967%">
         <rect
             height="8"
             fill="#89e051"
@@ -188,7 +188,7 @@
       
     <svg width="205" x="0" y="25">
       <rect rx="5" ry="5" x="0" y="0" width="205" height="8" fill="#ddd"></rect>
-      <svg data-testid="lang-progress" width="2.9336076766878723%">
+      <svg data-testid="lang-progress" width="2.928667892323755%">
         <rect
             height="8"
             fill="#663399"
