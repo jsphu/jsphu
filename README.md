@@ -1,7 +1,7 @@
 <p>
-  <image>
+  <!-- <image>
     <img alt="Stats" src="./profile/stats.svg" width="">
-  </image>
+  </image> -->
   <image>
     <img alt="roadmap" src="https://roadmap.sh/card/wide/6771214e70129741a8e72576?variant=dark&roadmaps=javascript%2Cpython%2Cfrontend%2Clinux" width="360px;">
   </image>
